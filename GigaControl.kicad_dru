@@ -1,0 +1,7 @@
+(version 1)
+(rule "Allow J4 Castellated Edge Overlap"
+    (constraint edge_clearance (min -1mm))
+    (condition "A.memberOfFootprint('J4')"))
+(rule "Allow Tracks Touching Board Edge"
+    (constraint edge_clearance (min -5mm))
+    (condition "A.Type == 'Track'"))
