@@ -724,6 +724,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -782,7 +788,7 @@
         "uuid": "0468a8f0-6992-48fb-8a0a-32fabb565718"
       }
     ],
-    "used_designators": "U9,#PWR64,#PWR69-72,#FLG2-3",
+    "used_designators": "U9,#PWR64,#PWR69-72,#FLG2-3,H1-2",
     "variants": []
   },
   "sheets": [

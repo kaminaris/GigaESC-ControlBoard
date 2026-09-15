@@ -26,17 +26,17 @@ J3 GND contacts: pins 1, 10, and 20 (left, middle, right). Peripheral remapping 
 | 16 | J2 | 11 | `L1` | 12 | `GND` |
 | 17 | J2 | 13 | `CURR1 FILTERED` | 14 | `GND` |
 | 18 | J2 | 15 | `VSENSE1` | 16 | `GND` |
-| 19 | J2 | 17 | `SPI1-MOSI` | 18 | `USBD-` |
-| 20 | J2 | 19 | `SPI1-MISO-ADC2` | 20 | `USBD+` |
-| 21 | J3 | 1 | `GND` | 2 | `SPI1-SCK-ADC` |
-| 22 | J3 | 3 | `ESP-TX` | 4 | `SPI1-NSS` |
-| 23 | J3 | 5 | `ESP-RX` | 6 | `IN-CANH` |
-| 24 | J3 | 7 | `HALL-VOLTAGE` | 8 | `IN-CANL` |
-| 25 | J3 | 9 | `HALL1 IN` | 10 | `GND` |
-| 26 | J3 | 11 | `HALL2 IN` | 12 | `HALL3 IN` |
-| 27 | J3 | 13 | `SERVO` | 14 | `TEMPMOTOR IN` |
-| 28 | J3 | 15 | `NRST` | 16 | `I2C2 SDA{slash}USART3 RX` |
-| 29 | J3 | 17 | `I2C2 SCL{slash}USART3 TX` | 18 | `SWDIO` |
+| 19 | J2 | 17 | `USBD-` | 18 | `USBD+` |
+| 20 | J2 | 19 | `SWDIO` | 20 | `HALL3 IN` |
+| 21 | J3 | 1 | `GND` | 2 | `SERVO` |
+| 22 | J3 | 3 | `I2C2 SDA{slash}USART3 RX` | 4 | `ESP-RX` |
+| 23 | J3 | 5 | `SPI1-MISO-ADC2` | 6 | `SPI1-SCK-ADC` |
+| 24 | J3 | 7 | `HALL1 IN` | 8 | `HALL-VOLTAGE` |
+| 25 | J3 | 9 | `I2C2 SCL{slash}USART3 TX` | 10 | `GND` |
+| 26 | J3 | 11 | `SPI1-NSS` | 12 | `NRST` |
+| 27 | J3 | 13 | `HALL2 IN` | 14 | `ESP-TX` |
+| 28 | J3 | 15 | `SPI1-MOSI` | 16 | `IN-CANL` |
+| 29 | J3 | 17 | `TEMPMOTOR IN` | 18 | `IN-CANH` |
 | 30 | J3 | 19 | `SWCLK` | 20 | `GND` |
 
 Phase 3: columns 4-8; phase 2: 9-13; phase 1: 14-18. All 41 active non-ground signals retained, with 19 ground contacts. RESERVED1/2/3 no longer cross the connector; their MCU-side circuitry is unchanged.

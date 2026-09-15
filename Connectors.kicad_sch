@@ -2901,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 210.82) (xy 85.09 210.82)
+			(xy 280.67 120.65) (xy 275.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3041,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 213.36) (xy 115.57 213.36)
+			(xy 300.99 123.19) (xy 306.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 220.98) (xy 100.33 223.52)
+			(xy 290.83 130.81) (xy 290.83 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3401,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 208.28) (xy 115.57 208.28)
+			(xy 300.99 118.11) (xy 306.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 205.74) (xy 85.09 205.74)
+			(xy 280.67 115.57) (xy 275.59 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 210.82) (xy 115.57 210.82)
+			(xy 300.99 120.65) (xy 306.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3651,7 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 205.74) (xy 115.57 205.74)
+			(xy 300.99 115.57) (xy 306.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 213.36) (xy 85.09 213.36)
+			(xy 280.67 123.19) (xy 275.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 208.28) (xy 85.09 208.28)
+			(xy 280.67 118.11) (xy 275.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3883,7 +3883,7 @@
 	)
 	(global_label "SPI1-MISO-ADC2"
 		(shape passive)
-		(at 85.09 149.86 180)
+		(at 85.09 152.4 180)
 		(effects
 			(font
 				(size 1 1)
@@ -3892,7 +3892,7 @@
 		)
 		(uuid "02a95352-48aa-40ed-b261-fbe2413845ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 149.86 0)
+			(at 85.09 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,16 +3971,16 @@
 	)
 	(global_label "SPI1-MOSI"
 		(shape passive)
-		(at 190.5 73.66 180)
+		(at 218.44 73.66 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0a482d84-303d-4b14-a5b5-5dec00636696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 73.66 0)
+			(at 218.44 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,16 +4015,16 @@
 	)
 	(global_label "SPI1-MISO-ADC2"
 		(shape passive)
-		(at 190.5 76.2 180)
+		(at 218.44 76.2 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0fdf82e5-bf32-4d9c-b46c-0512f4e931de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 76.2 0)
+			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4059,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 345.44 76.2 0)
+		(at 345.44 73.66 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4068,7 +4068,7 @@
 		)
 		(uuid "120ad208-bb76-4524-9961-46d93130edc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 76.2 0)
+			(at 345.44 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4213,7 @@
 	)
 	(global_label "SERVO"
 		(shape passive)
-		(at 308.61 149.86 0)
+		(at 308.61 154.94 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4222,7 +4222,7 @@
 		)
 		(uuid "2b1e1d81-a715-49bd-83da-76e7b501c577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 149.86 0)
+			(at 308.61 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4235,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 100.33 223.52 0)
+		(at 290.83 133.35 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4244,7 +4244,7 @@
 		)
 		(uuid "32c453bc-2d5f-41d9-bc2f-645c813cd4c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 223.52 0)
+			(at 290.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4301,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 100.33 223.52 0)
+		(at 290.83 133.35 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4310,7 +4310,7 @@
 		)
 		(uuid "3b62a4b9-04a3-431d-9c06-10f4cab6f31a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 223.52 0)
+			(at 290.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,7 +4367,7 @@
 	)
 	(global_label "I2C2 SCL{slash}USART3 TX"
 		(shape passive)
-		(at 278.13 154.94 180)
+		(at 275.59 115.57 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4376,7 +4376,7 @@
 		)
 		(uuid "47b554f2-f12d-435d-9e70-fcfefc31e766")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 154.94 0)
+			(at 275.59 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,7 +4389,7 @@
 	)
 	(global_label "SERVO"
 		(shape passive)
-		(at 278.13 149.86 180)
+		(at 278.13 154.94 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4398,7 +4398,7 @@
 		)
 		(uuid "4937116f-2567-46b5-a6b0-ac4f9fee446a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 149.86 0)
+			(at 278.13 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4455,16 +4455,16 @@
 	)
 	(global_label "USBD+"
 		(shape passive)
-		(at 218.44 76.2 0)
+		(at 317.5 53.34 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "547bed80-fa57-435e-bc07-49620c999fc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 76.2 0)
+			(at 317.5 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,16 +4477,16 @@
 	)
 	(global_label "SERVO"
 		(shape passive)
-		(at 317.5 68.58 180)
+		(at 345.44 66.04 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "54ac62e3-6851-4eb7-aaef-1ad4165693a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 68.58 0)
+			(at 345.44 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,16 +4499,16 @@
 	)
 	(global_label "ESP-RX"
 		(shape passive)
-		(at 317.5 58.42 180)
+		(at 345.44 76.2 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "563d8e57-7586-4311-88dd-98cfd7ad7acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 58.42 0)
+			(at 345.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,7 +4543,7 @@
 	)
 	(global_label "IN-CANL"
 		(shape passive)
-		(at 345.44 60.96 0)
+		(at 345.44 68.58 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4552,7 +4552,7 @@
 		)
 		(uuid "58dfe5ab-8398-42bf-bfc3-f657fcfa65fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 60.96 0)
+			(at 345.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4565,7 @@
 	)
 	(global_label "NRST"
 		(shape passive)
-		(at 317.5 71.12 180)
+		(at 317.5 73.66 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4574,7 +4574,7 @@
 		)
 		(uuid "5b800cbf-a1ce-40d4-a987-b7161d3446e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 71.12 0)
+			(at 317.5 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,7 +4631,7 @@
 	)
 	(global_label "ESP-TX"
 		(shape passive)
-		(at 115.57 210.82 0)
+		(at 308.61 149.86 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4640,7 +4640,7 @@
 		)
 		(uuid "5e3ee5a3-aa5c-420f-a5ea-3a02fd2cadad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 210.82 0)
+			(at 308.61 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4675,7 @@
 	)
 	(global_label "ESP-RX"
 		(shape passive)
-		(at 115.57 213.36 0)
+		(at 308.61 152.4 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4684,7 +4684,7 @@
 		)
 		(uuid "605341e1-4e09-4049-b94e-92ed8eb7ed79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 213.36 0)
+			(at 308.61 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,16 +4719,16 @@
 	)
 	(global_label "HALL3 IN"
 		(shape passive)
-		(at 345.44 66.04 0)
+		(at 317.5 68.58 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "61197499-8e9f-4505-b144-dcaa2a1251be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 66.04 0)
+			(at 317.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4763,7 +4763,7 @@
 	)
 	(global_label "I2C2 SDA{slash}USART3 RX"
 		(shape passive)
-		(at 278.13 152.4 180)
+		(at 275.59 118.11 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4772,7 +4772,7 @@
 		)
 		(uuid "666b870a-e873-4373-b9df-a1c78f068b10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 152.4 0)
+			(at 275.59 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4807,7 +4807,7 @@
 	)
 	(global_label "SWCLK"
 		(shape passive)
-		(at 317.5 76.2 180)
+		(at 317.5 58.42 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4816,7 +4816,7 @@
 		)
 		(uuid "6f89ebff-a8fd-48cd-9e19-9ef36ba2f794")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 76.2 0)
+			(at 317.5 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,7 +4873,7 @@
 	)
 	(global_label "SWDIO"
 		(shape passive)
-		(at 115.57 205.74 0)
+		(at 306.07 120.65 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4882,7 +4882,7 @@
 		)
 		(uuid "7681c25d-50c7-46e9-9799-49edfe5017ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 205.74 0)
+			(at 306.07 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +4895,7 @@
 	)
 	(global_label "SWDIO"
 		(shape passive)
-		(at 85.09 205.74 180)
+		(at 275.59 120.65 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4904,7 +4904,7 @@
 		)
 		(uuid "7a60d9e0-7452-4df7-ae18-a2d4a321b8f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 205.74 0)
+			(at 275.59 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4917,7 +4917,7 @@
 	)
 	(global_label "SWCLK"
 		(shape passive)
-		(at 115.57 208.28 0)
+		(at 306.07 123.19 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4926,7 +4926,7 @@
 		)
 		(uuid "7c0da54c-03ce-41bf-9839-95aa5bf59083")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 208.28 0)
+			(at 306.07 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4983,7 @@
 	)
 	(global_label "SPI1-MISO-ADC2"
 		(shape passive)
-		(at 115.57 149.86 0)
+		(at 115.57 152.4 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4992,7 +4992,7 @@
 		)
 		(uuid "7e0b0317-d0d1-4014-ac00-56b02fddbe5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 149.86 0)
+			(at 115.57 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5005,7 @@
 	)
 	(global_label "SPI1-MOSI"
 		(shape passive)
-		(at 85.09 147.32 180)
+		(at 85.09 154.94 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5014,7 +5014,7 @@
 		)
 		(uuid "7e960ef5-e60b-41f5-8851-e9e729e85d65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 147.32 0)
+			(at 85.09 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5071,7 @@
 	)
 	(global_label "I2C2 SDA{slash}USART3 RX"
 		(shape passive)
-		(at 308.61 152.4 0)
+		(at 306.07 118.11 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5080,7 +5080,7 @@
 		)
 		(uuid "829a7470-c887-4e93-85b7-aab05567660c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 152.4 0)
+			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5093,7 @@
 	)
 	(global_label "SPI1-NSS"
 		(shape passive)
-		(at 115.57 154.94 0)
+		(at 115.57 147.32 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5102,29 +5102,7 @@
 		)
 		(uuid "860c7b66-9878-470e-91db-9056352cd565")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "HALL-VOLTAGE"
-		(shape passive)
-		(at 317.5 60.96 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "8898c241-5a83-4115-904e-bfe2603941f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 60.96 0)
+			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5137,7 @@
 	)
 	(global_label "SPI1-SCK-ADC"
 		(shape passive)
-		(at 85.09 152.4 180)
+		(at 85.09 149.86 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5168,7 +5146,7 @@
 		)
 		(uuid "90bd287c-09c8-43aa-870b-bab428f695b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 152.4 0)
+			(at 85.09 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5269,7 @@
 	)
 	(global_label "ESP-TX"
 		(shape passive)
-		(at 85.09 210.82 180)
+		(at 278.13 149.86 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5300,7 +5278,7 @@
 		)
 		(uuid "97562fb0-1ebb-4e45-9a10-7dc2c4693fcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 210.82 0)
+			(at 278.13 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5357,7 +5335,7 @@
 	)
 	(global_label "SWCLK"
 		(shape passive)
-		(at 85.09 208.28 180)
+		(at 275.59 123.19 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5366,7 +5344,7 @@
 		)
 		(uuid "9c131117-0b4a-4cdc-b757-bb591e0c5e54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 208.28 0)
+			(at 275.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5357,7 @@
 	)
 	(global_label "I2C2 SDA{slash}USART3 RX"
 		(shape passive)
-		(at 345.44 71.12 0)
+		(at 345.44 58.42 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5388,7 +5366,7 @@
 		)
 		(uuid "9e163979-1a91-43af-b125-1b7da4e50ba9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 71.12 0)
+			(at 345.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5379,7 @@
 	)
 	(global_label "I2C2 SCL{slash}USART3 TX"
 		(shape passive)
-		(at 308.61 154.94 0)
+		(at 306.07 115.57 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5410,7 +5388,7 @@
 		)
 		(uuid "a3e4d4bd-6d4a-4a7c-bb67-4031a5339506")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 154.94 0)
+			(at 306.07 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5467,7 +5445,7 @@
 	)
 	(global_label "SPI1-MOSI"
 		(shape passive)
-		(at 115.57 147.32 0)
+		(at 115.57 154.94 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5476,7 +5454,7 @@
 		)
 		(uuid "adcfab74-bc6e-477b-a1ea-3e096b8380db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 147.32 0)
+			(at 115.57 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5489,7 @@
 	)
 	(global_label "SPI1-NSS"
 		(shape passive)
-		(at 85.09 154.94 180)
+		(at 85.09 147.32 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5520,7 +5498,7 @@
 		)
 		(uuid "b0590bc2-84cd-4655-9c12-8165722a6957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 154.94 0)
+			(at 85.09 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,7 +5555,7 @@
 	)
 	(global_label "IN-CANH"
 		(shape passive)
-		(at 345.44 58.42 0)
+		(at 345.44 71.12 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5586,7 +5564,7 @@
 		)
 		(uuid "b9daa288-b671-41db-8e44-f967cc735531")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 58.42 0)
+			(at 345.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,16 +5577,16 @@
 	)
 	(global_label "SPI1-NSS"
 		(shape passive)
-		(at 345.44 55.88 0)
+		(at 190.5 73.66 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bcbc38e0-5f37-43e1-945a-0681c6c47724")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 55.88 0)
+			(at 190.5 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +5599,7 @@
 	)
 	(global_label "USBD-"
 		(shape passive)
-		(at 218.44 73.66 0)
+		(at 345.44 53.34 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5630,7 +5608,7 @@
 		)
 		(uuid "bd5bbd1d-88cd-4b37-8916-6353d4f29b5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 73.66 0)
+			(at 345.44 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5709,16 +5687,16 @@
 	)
 	(global_label "TEMPMOTOR IN"
 		(shape passive)
-		(at 345.44 68.58 0)
+		(at 317.5 71.12 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c93440cb-aae6-46ca-8c7d-e9949e5a5c32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 68.58 0)
+			(at 317.5 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,16 +5709,16 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 317.5 53.34 180)
+		(at 345.44 55.88 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d1259b47-cd5d-4cd7-bcba-bd26363bca65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 53.34 0)
+			(at 345.44 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,16 +5731,16 @@
 	)
 	(global_label "SWDIO"
 		(shape passive)
-		(at 345.44 73.66 0)
+		(at 317.5 55.88 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d5fdd2a9-8c79-4470-b9a2-93ce8b706cbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 73.66 0)
+			(at 317.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,6 +5839,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 317.5 60.96 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "e0dfe162-b696-4d49-9768-b5016ebdde46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "MOSTEMP1"
 		(shape passive)
 		(at 190.5 60.96 180)
@@ -5885,16 +5885,16 @@
 	)
 	(global_label "I2C2 SCL{slash}USART3 TX"
 		(shape passive)
-		(at 317.5 73.66 180)
+		(at 345.44 60.96 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e5b76e47-4373-4521-8337-19a2def23bf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 73.66 0)
+			(at 345.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +5951,7 @@
 	)
 	(global_label "SPI1-SCK-ADC"
 		(shape passive)
-		(at 115.57 152.4 0)
+		(at 115.57 149.86 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5960,7 +5960,7 @@
 		)
 		(uuid "edb56735-c30f-48c8-b559-25f7bf792031")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 152.4 0)
+			(at 115.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,16 +5995,16 @@
 	)
 	(global_label "SPI1-SCK-ADC"
 		(shape passive)
-		(at 345.44 53.34 0)
+		(at 190.5 76.2 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f25af67a-df88-4612-8195-b3cc6371c9ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 53.34 0)
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,7 +6017,7 @@
 	)
 	(global_label "ESP-TX"
 		(shape passive)
-		(at 317.5 55.88 180)
+		(at 317.5 76.2 180)
 		(effects
 			(font
 				(size 1 1)
@@ -6026,7 +6026,7 @@
 		)
 		(uuid "f4228283-c39d-45bb-925d-ec41c534328c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 55.88 0)
+			(at 317.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6039,7 @@
 	)
 	(global_label "ESP-RX"
 		(shape passive)
-		(at 85.09 213.36 180)
+		(at 278.13 152.4 180)
 		(effects
 			(font
 				(size 1 1)
@@ -6048,7 +6048,7 @@
 		)
 		(uuid "f850306f-b7d3-45fb-b070-7323dd9521cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 213.36 0)
+			(at 278.13 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7017,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:ESD224DQA")
-		(at 100.33 210.82 0)
+		(at 290.83 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7028,7 +7028,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc432bb-9118-4669-b43d-61b1f72e39cd")
 		(property "Reference" "U7"
-			(at 100.33 199.39 0)
+			(at 290.83 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7038,7 +7038,7 @@
 			)
 		)
 		(property "Value" "PESD4USB5U-TTSX"
-			(at 100.33 201.93 0)
+			(at 290.83 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7048,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
-			(at 99.695 222.25 0)
+			(at 290.195 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +7059,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd224.pdf"
-			(at 100.33 224.79 0)
+			(at 290.83 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +7070,7 @@
 			)
 		)
 		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10"
-			(at 100.33 210.82 0)
+			(at 290.83 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
