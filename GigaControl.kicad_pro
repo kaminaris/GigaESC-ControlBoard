@@ -62,11 +62,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.025,
+          "thermal_relief_spoke_width": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -788,7 +788,7 @@
         "uuid": "0468a8f0-6992-48fb-8a0a-32fabb565718"
       }
     ],
-    "used_designators": "U9,#PWR64,#PWR69-72,#FLG2-3,H1-2",
+    "used_designators": "U9,#PWR64,#PWR69-72,#FLG2-3,H1-2,TP1-3",
     "variants": []
   },
   "sheets": [
