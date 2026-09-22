@@ -494,7 +494,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -788,7 +788,7 @@
         "uuid": "0468a8f0-6992-48fb-8a0a-32fabb565718"
       }
     ],
-    "used_designators": "U9,#PWR64,#PWR69-72,#FLG2-3,H1-2,TP1-3",
+    "used_designators": "U3,U9,#PWR7,#PWR13,#PWR15-17,#PWR19-22,#PWR26-32,#PWR64,#PWR69-72,#PWR134-135,#FLG1-3,JP1,H1-2,TP1-3,C5,C30",
     "variants": []
   },
   "sheets": [
@@ -797,28 +797,20 @@
       "GigaControl"
     ],
     [
-      "cfcaf101-653c-4305-bd9a-f3df5073e905",
-      "Connectors"
-    ],
-    [
-      "00914860-87aa-4e36-a4ff-9b6d96ef229e",
-      "IMU"
-    ],
-    [
-      "e6d9898f-80a0-401a-8375-3c3a10c9d32d",
-      "CAN"
+      "0b94020d-82ee-4abc-ba5f-7e0cbe58e2cd",
+      "MCU"
     ],
     [
       "f23f0259-dc96-4ca1-b331-caba5f54806d",
       "Filters"
     ],
     [
-      "e7288c3b-6120-4c31-9225-7a7481f0c8ee",
-      "Power"
+      "e6d9898f-80a0-401a-8375-3c3a10c9d32d",
+      "CAN"
     ],
     [
-      "0b94020d-82ee-4abc-ba5f-7e0cbe58e2cd",
-      "MCU"
+      "00914860-87aa-4e36-a4ff-9b6d96ef229e",
+      "IMU"
     ]
   ],
   "text_variables": {},

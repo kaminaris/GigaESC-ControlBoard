@@ -1452,53 +1452,27 @@
 		)
 		(uuid "faebc78d-c20e-45de-8462-288be5cedf6a")
 	)
-	(global_label "IMU SDA"
+	(hierarchical_label "IMU-SDA"
 		(shape input)
-		(at 106.68 105.41 180)
-		(fields_autoplaced yes)
+		(at 106.68 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "96ff55fe-da95-42a7-aef2-1a1949b5882a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.506 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "IMU SCL"
+	(hierarchical_label "IMU-SCL"
 		(shape input)
-		(at 106.68 102.87 180)
-		(fields_autoplaced yes)
+		(at 106.68 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "d3cf8cb5-6ce0-4ca5-b27c-bda1a95e2980")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.5665 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")

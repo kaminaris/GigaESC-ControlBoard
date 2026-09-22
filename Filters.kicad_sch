@@ -568,18 +568,6 @@
 		(uuid "02492d8a-a305-4265-bde0-d02469b899a4")
 	)
 	(rectangle
-		(start 101.6 139.7)
-		(end 152.4 177.8)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "38130a57-9de8-49a8-951e-9d25f51e5b2c")
-	)
-	(rectangle
 		(start 24.13 127)
 		(end 88.9 177.8)
 		(stroke
@@ -635,17 +623,6 @@
 			(justify bottom)
 		)
 		(uuid "35052a0f-9073-4ca0-8ac7-964af9b08a8d")
-	)
-	(text "Input Voltage Filter"
-		(exclude_from_sim no)
-		(at 125.73 138.43 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify bottom)
-		)
-		(uuid "43cbe4e3-32b5-4020-8c38-421b802fe631")
 	)
 	(text "Voltage Measure Filter"
 		(exclude_from_sim no)
@@ -712,16 +689,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 139.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38658051-1b88-4926-b526-73b4b7eb39ae")
-	)
-	(wire
-		(pts
 			(xy 57.15 36.83) (xy 54.61 36.83)
 		)
 		(stroke
@@ -762,16 +729,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 139.7 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6627f969-744d-470b-991e-b3a6d832e5b0")
-	)
-	(wire
-		(pts
 			(xy 50.8 133.35) (xy 50.8 137.16)
 		)
 		(stroke
@@ -809,16 +766,6 @@
 			(type default)
 		)
 		(uuid "8560e70e-4771-4b12-b161-562bd0ee6bab")
-	)
-	(wire
-		(pts
-			(xy 139.7 154.94) (xy 139.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4eed76-d66b-4947-a1d9-4406e7a12ba5")
 	)
 	(wire
 		(pts
@@ -900,365 +847,159 @@
 		)
 		(uuid "fff69031-1af5-40f0-9d56-9632f54f6f71")
 	)
-	(global_label "HALL1 IN"
+	(hierarchical_label "HALL1-IN"
 		(shape input)
 		(at 238.76 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "2dbc35c4-0487-4fe9-af55-70a7b5f0068e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.5993 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "HALL3 IN"
+	(hierarchical_label "HALL3-IN"
 		(shape input)
 		(at 238.76 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "30ddffb9-960d-4ad4-9341-5ae6f4a946dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.5993 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "VSENSE2"
+	(hierarchical_label "VSENSE2"
 		(shape input)
-		(at 44.45 62.23 180)
-		(fields_autoplaced yes)
+		(at 44.45 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "3f1e8d93-ee51-4f1b-bc26-1069f36805dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.8528 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "VSENSE3"
+	(hierarchical_label "VSENSE3"
 		(shape input)
-		(at 44.45 77.47 180)
-		(fields_autoplaced yes)
+		(at 44.45 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "4aecfdf5-3af1-4476-b541-be7033fcdfec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.8528 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "PHASE FILTER ENABLE1"
+	(hierarchical_label "PHASE-FILTER-ENABLE1"
 		(shape input)
 		(at 57.15 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "5e4229cd-3774-4c18-914c-797a1159fa46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7172 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "PHASE FILTER ENABLE2"
+	(hierarchical_label "PHASE-FILTER-ENABLE2"
 		(shape input)
 		(at 57.15 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "61a3a69e-e55f-4ec9-bc4e-f9af00716dc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7172 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "HALL2"
+	(hierarchical_label "HALL2"
 		(shape input)
-		(at 162.56 88.9 180)
-		(fields_autoplaced yes)
+		(at 162.56 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "6fcb5979-802d-4474-9d4a-991956af5c76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6236 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "TEMPMOTOR IN"
+	(hierarchical_label "TEMPMOTOR-IN"
 		(shape input)
 		(at 54.61 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "82b168f6-08d2-4683-aadf-2c09aa0368c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.6861 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "PHASE FILTER ENABLE3"
+	(hierarchical_label "PHASE-FILTER-ENABLE3"
 		(shape input)
 		(at 57.15 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "867c5fd7-07d3-405f-a9f6-30a97baa7d6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7172 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "HALL3"
+	(hierarchical_label "HALL3"
 		(shape input)
-		(at 162.56 82.55 180)
-		(fields_autoplaced yes)
+		(at 162.56 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "8ed6f17d-a741-41cd-a36f-9106b6063cbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6236 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "IN V"
+	(hierarchical_label "HALL1"
 		(shape input)
-		(at 114.3 151.13 180)
-		(fields_autoplaced yes)
+		(at 162.56 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
-		)
-		(uuid "abb8beb6-f164-402c-8c2b-5cb83b30f66f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.9775 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HALL1"
-		(shape input)
-		(at 162.56 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "bae08dcf-0dd1-47fa-87ec-6f79d44ec288")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6236 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "TEMPMOTOR"
+	(hierarchical_label "TEMPMOTOR"
 		(shape input)
 		(at 54.61 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "c560e437-6375-4e47-aa8a-3de99ce6f3d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.0496 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "VSENSE1"
+	(hierarchical_label "VSENSE1"
 		(shape input)
-		(at 44.45 36.83 180)
-		(fields_autoplaced yes)
+		(at 44.45 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "d70ad96e-5780-458a-b630-3114d8af8a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.8528 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "HALL2 IN"
+	(hierarchical_label "HALL2-IN"
 		(shape input)
 		(at 238.76 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "f9ade3ff-55de-4841-9ebc-40a836acba33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.5993 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2239,90 +1980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43faf742-4814-4ca3-8d4f-4cd344c3e673")
-		(property "Reference" "#PWR07"
-			(at 139.7 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec8fd25a-7a61-4ff1-9cf6-f76b1365b011")
-		)
-		(instances
-			(project "GigaControl"
-				(path "/0468a8f0-6992-48fb-8a0a-32fabb565718/f23f0259-dc96-4ca1-b331-caba5f54806d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "DevKitX2"
-				(path "/f1669b58-72b9-4fb2-ac42-88130f4067ab/f23f0259-dc96-4ca1-b331-caba5f54806d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 50.8 36.83 90)
 		(unit 1)
@@ -2641,168 +2298,6 @@
 			(project "DevKitX2"
 				(path "/f1669b58-72b9-4fb2-ac42-88130f4067ab/f23f0259-dc96-4ca1-b331-caba5f54806d"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a54433bd-4d1b-43b0-9b04-b46bb7fabb24")
-		(property "Reference" "C30"
-			(at 137.16 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1n"
-			(at 141.605 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 140.6652 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C1523"
-			(at 139.7 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PURCHASE-URL" ""
-			(at 139.7 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "702a169d-fc48-41f5-8d61-c738b3fff909")
-		)
-		(pin "2"
-			(uuid "690f9ba6-0177-4cef-a9b5-00958858fad8")
-		)
-		(instances
-			(project "GigaControl"
-				(path "/0468a8f0-6992-48fb-8a0a-32fabb565718/f23f0259-dc96-4ca1-b331-caba5f54806d"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-			(project "DevKitX2"
-				(path "/f1669b58-72b9-4fb2-ac42-88130f4067ab/f23f0259-dc96-4ca1-b331-caba5f54806d"
-					(reference "C43")
 					(unit 1)
 				)
 			)

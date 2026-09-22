@@ -1,46 +1,43 @@
-# Production files
-production/
-*.wrl
-*.step
-replicate_layout.log
-fabrication-toolkit-options.json
-*.f3z
+# Generated production and visualization outputs
+/production/
+/Render/
+/GigaControl.step
 ibom.html
-
-# Temporary files
-.idea
-.vscode
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
-~*
-\#auto_saved_files\#
-_autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
-Render/
+replicate_layout.log
 *.pcb3d
 *.stl
 *.blend
 *.gltf
 *.obj
+*.f3z
+
+# Keep source STEP/WRL models and fabrication settings trackable.
+# In particular, the PCB references HDR-TH_20P-P1.00-V-F-R2-C10-S1.00.step.
+
+# Local editor state, locks, caches and recovery files
+.idea/
+.vscode/
+*.kicad_prl
+*.lck
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-backups/
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Regenerable netlists and autorouter exchange files
+*.net
+*.dsn
+*.ses
+
+fabrication-toolkit-options.json

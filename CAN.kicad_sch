@@ -1013,101 +1013,49 @@
 		)
 		(uuid "fa264da7-8f10-4238-9e0f-6e9c325e3881")
 	)
-	(global_label "CAN RX"
+	(hierarchical_label "CAN-RX"
 		(shape input)
-		(at 116.84 111.76 180)
-		(fields_autoplaced yes)
+		(at 116.84 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "08f1df89-8965-408f-96a9-bde55a1aabcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.4522 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "CAN TX"
+	(hierarchical_label "CAN-TX"
 		(shape input)
-		(at 116.84 109.22 180)
-		(fields_autoplaced yes)
+		(at 116.84 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "359a5895-00d8-4ca4-8348-783ed875982f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7546 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "IN-CANH"
+	(hierarchical_label "IN-CANH"
 		(shape input)
 		(at 158.75 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "409e74f4-dab3-4db6-98fa-20e8a593755f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.6083 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "IN-CANL"
+	(hierarchical_label "IN-CANL"
 		(shape input)
 		(at 158.75 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "4813875f-681c-4d38-ae37-f9add7f2bfb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.3059 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
