@@ -2,6 +2,12 @@
 
 Compact six-layer control card for modular GigaESC motor controllers. The MCU, CAN transceiver, IMU and signal conditioning live here; the MOSFET power stage and power supply are separate boards.
 
+## Board views
+
+![GigaControl component side](docs/images/gigacontrol-front-render.png)
+
+![GigaControl back side](docs/images/gigacontrol-back-render.png)
+
 ## Hardware
 
 - STM32F405RGT6 with an 8 MHz oscillator.
@@ -35,3 +41,4 @@ Cleanup candidates, not deleted:
 - `production/` contains generated outputs; preserve any release/manufacturing records that still matter.
 
 Review on 2026-09-22: saved-board DRC reports no violations, unconnected items or schematic mismatches. ERC has one warning for PB2 tied to GND. These checks do not replace hardware validation.
+
